@@ -63,12 +63,12 @@ class Agenda:
 
     def buscar_contato(self):
         print()
-        if self.get_agenda() == []:  # Lista vazia.
+        if self.get_agenda() == []:
             print('Não há contatos cadastrados na agenda.')
         else:
             termo = str(input('Digite o termo que você deseja buscar: ')).strip()
             for index, contato in enumerate(self.get_agenda()):
-                if(contato.get_nome().find(termo) + contato.get_email().find(termo) + contato.get_telefone().find(termo)) >= -2:  # O find retorna -1 se o termo não for encontrado
+                if(contato.get_nome().find(termo) + contato.get_email().find(termo) + contato.get_telefone().find(termo)) >= -2:  # O find retorna -1 se o termo não for encontrado.
                     print('-' * 30)
                     print(f'Contato {index + 1}:')
                     print(f'Nome: {contato.get_nome()}')
@@ -104,7 +104,7 @@ class Agenda:
 
     def excluir_contato(self):
         print()
-        if self.get_agenda() == []:  # Lista vazia.
+        if self.get_agenda() == []:
             print('Não há contatos cadastrados na agenda.\n')
         else:
             self.listar_contatos()
