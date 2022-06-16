@@ -9,6 +9,8 @@
 </ul>
 <p>A solução destas se deu, basicamente, com a busca por conteúdos na internet e na consulta com outros colegas.</p>
 
+<h2>Funções do sistema</h2>
+<p>As funções exigidas pelo professor, resumidamente, foram:</p>
 <ol>
   <li>Os contatos deveriam ser colocados dentro de uma agenda;
 
